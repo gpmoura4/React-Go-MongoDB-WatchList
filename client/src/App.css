@@ -1,0 +1,72 @@
+html {
+  /* 1 rem = 10px, é multiplicado pelo todo */
+  /* em = texto é multiplicado pelo pai */
+  font-size: 62.5%;
+  
+}
+
+body {  
+  font-family: 'Roboto', sans-serif;
+  background-color: #CDF5FD;
+  display: flex;
+  /* padding: 2rem; */
+  height: 60vh;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div{
+  border: 2px solid black;
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  /* gap: 1rem 0rem; */
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid black; */
+  width:100%;
+
+}
+
+
+
+.row .header{
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.row input{
+  outline: none;
+  padding: 1rem;
+  border: none;
+  border-radius: 3rem;
+  /* width: 100%; */
+  margin-bottom: 1rem;
+  display:block;
+}
+
+.row .btn-add{
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 3rem;
+  background-color: #00A9FF;
+  color: #FFF;
+  transition: 300ms all ease-in-out;
+}
+
+.row .btn-add:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #A8DF8E;
+}
